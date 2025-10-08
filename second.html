@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color:rgb(236, 230, 230);
+            padding: 20px;
+            margin: 0;
+        }
+        .card-container {
+            width: 700px;
+            background-color: white;
+            border: 1px solid black;
+            overflow: hidden; /* contains floats */
+            padding: 10px;
+        }
+        .left {
+            float: left;
+            width: 40%;
+        }
+        .left img {
+            width: 100%;
+            height: auto;
+        }
+        .right {
+            float: left;
+            width: 55%;
+            padding-left: 20px;
+        }
+        .right h2 {
+            margin-top: 0;
+        }
+       .right ul {
+            padding-left: 20px;
+        }
+        .right ul li {
+            margin-bottom: 10px;
+        }
+        .button {
+            display: inline-block;
+            background-color: black;
+            color: aliceblue;
+            padding: 8px 15px;
+            border-radius: 4px;
+            margin-top: 10px;
+            text-decoration: none;
+        }
+        .clearfix {
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div class="card-container">
+        <div class="left">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNg-ra637lUXnSWt_EQskIqb6jaH84iVpvKQ&s" alt="Debit Card">
+        </div>
+        <div class="right">
+            <h2>International Debit Card</h2>
+            <ul>
+                <li>5-10% cashback</li>
+                <li>10-20% cashback</li>
+                <li>No additional charges</li>
+            </ul>
+            <a href="#" class="button">Apply Now</a>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Loans</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: rgb(197, 195, 195);
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            margin-top: 20px;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: whitesmoke;
+            width: 250px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            overflow: hidden;
+            text-align: center;
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .card h3 {
+            margin: 10px 0;
+        }
+
+        .card p {
+            padding: 0 10px 10px;
+            font-size: 14px;
+            color: #333;
+        }
+
+        .card button {
+            background-color: aquamarine;
+            color: black;
+            border: 2px solid black;
+            border-radius: 4px;
+            padding: 8px 12px;
+            margin-bottom: 15px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        .card button:hover {
+            background-color: #7fffd4;
+        }
+    </style>
+</head>
+<body>
+    <h1>Types of Home Loans</h1>
+    <div class="container">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1560185127-6b3c6a052ed6?fit=crop&w=400&q=80" alt="New Home Loan">
+            <h3>New Home Loan</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt distinctio saepe quae quasi possimus exercitationem vel laboriosam.</p>
+            <button>Apply Now</button>
+        </div>
+
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdbYIaWm089xJnBHGjFGe1L8GV69zOP4t_pg&s" alt="Home Loan Image">
+            <h3>Home Loan for Renovation</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel laboriosam quod, molestias expedita tempore, cupiditate fugit.</p>
+            <button>Apply Now</button>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1597281441443-0f9c7b1f0b9f?fit=crop&w=400&q=80" alt="Plot + Home Construction">
+            <h3>Plot + Home Construction</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda adipisci dolor voluptas, distinctio saepe quae quasi possimus.</p>
+            <button>Apply Now</button>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?fit=crop&w=400&q=80" alt="Top-up Loan">
+            <h3>Top-up Loan</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio saepe quae quasi possimus exercitationem vel laboriosam.</p>
+            <button>Apply Now</button>
+        </div>
+    </div>
+</body>
+</html>
